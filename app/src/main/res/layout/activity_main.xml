@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/textViewMainTitle"
+            style="@style/TitleBigText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="@dimen/common_10_dp"
+            android:paddingTop="@dimen/common_5_dp"
+            android:paddingRight="@dimen/common_5_dp"
+            android:paddingBottom="@dimen/common_5_dp"
+            android:text="@string/app_name"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/textViewMainTitle"
+            android:orientation="horizontal">
+
+            <com.sen.cooey.widget.NeumorphCardView
+                android:id="@+id/opt_home"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/common_5_dp"
+                app:neumorph_shapeType="flat">
+
+
+                <ImageView
+                    android:layout_width="@dimen/common_50_dp"
+                    android:layout_height="@dimen/common_50_dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/common_5_dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_home"></ImageView>
+
+
+            </com.sen.cooey.widget.NeumorphCardView>
+
+
+            <com.sen.cooey.widget.NeumorphCardView
+                android:id="@+id/opt_like"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/common_5_dp"
+                app:neumorph_shapeType="flat">
+
+
+                <ImageView
+                    android:layout_width="@dimen/common_50_dp"
+                    android:layout_height="@dimen/common_50_dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/common_5_dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_like"></ImageView>
+
+
+            </com.sen.cooey.widget.NeumorphCardView>
+
+
+            <com.sen.cooey.widget.NeumorphCardView
+                android:id="@+id/opt_profile"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/common_5_dp"
+                app:neumorph_shapeType="flat">
+
+
+                <ImageView
+                    android:layout_width="@dimen/common_50_dp"
+                    android:layout_height="@dimen/common_50_dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/common_5_dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_profile"></ImageView>
+
+
+            </com.sen.cooey.widget.NeumorphCardView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+    <!--  <com.sen.cooey.widget.NeumorphCardView
+          style="@style/Widget.Neumorph.CardView"
+          android:layout_width="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="20dp"
+              android:text="Hello World!"
+              android:textSize="28sp"
+              android:textStyle="bold"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+      </com.sen.cooey.widget.NeumorphCardView>-->
+
+
+</RelativeLayout>

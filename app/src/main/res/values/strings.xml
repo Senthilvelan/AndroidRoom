@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Cooey dating</string>
+
+    <string name="login">Sign in</string>
+    <string name="register">Sign up</string>
+    <string name="go">Go</string>
+    <string name="existing_user"> Are you an <u>existing user ?</u></string>
+    <string name="new_user"> Are you a <u>new user ?</u></string>
+    <string name="error"> An error occur, Please try again later !</string>
+    <string name="valid_password">Password should be minimum 8 characters !</string>
+    <string name="valid_name">Name should not be empty ! </string>
+    <string name="valid_email">Enter valid email id !</string>
+
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dob">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="likes">Likes</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="undo">Undo</string>
+    <string name="logout">Logout</string>
+
+
+
+    <string name="instruction">Left swipe to LIKE !</string>
+    <string name="instruction2">Pay more to do undo !</string>
+    <string name="instruction3">Liked photos cant undo  !</string>
+    <string name="instruction4">Internet is not available !</string>
+
+
+</resources>

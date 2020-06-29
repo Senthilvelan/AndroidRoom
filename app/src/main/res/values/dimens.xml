@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default padding to avoid shadow clipping -->
+    <dimen name="design_default_shadow_padding">10dp</dimen>
+
+    <!-- Default corner radius -->
+    <dimen name="design_default_corner_radius">4dp</dimen>
+
+    <dimen name="common_1_dp">1dp</dimen>
+    <dimen name="common_2_dp">2dp</dimen>
+
+    <dimen name="common_5_dp">5dp</dimen>
+    <dimen name="common_10_dp">10dp</dimen>
+    <dimen name="common_15_dp">15dp</dimen>
+
+    <dimen name="common_20_dp">20dp</dimen>
+    <dimen name="common_30_dp">30dp</dimen>
+    <dimen name="common_40_dp">40dp</dimen>
+
+    <dimen name="common_50_dp">50dp</dimen>
+
+    <dimen name="common_60_dp">60dp</dimen>
+    <dimen name="common_80_dp">80dp</dimen>
+
+    <dimen name="common_100_dp">100dp</dimen>
+
+
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_medium_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_medium_large">18sp</dimen>
+
+    <dimen name="text_size_large">20sp</dimen>
+
+
+    <dimen name="button_radius">20dp</dimen>
+    <dimen name="button_padding">4dp</dimen>
+    <dimen name="button_padding_top_bottom">6dp</dimen>
+
+
+    <dimen name="card_width">350dp</dimen>
+    <dimen name="card_height">400dp</dimen>
+
+</resources>

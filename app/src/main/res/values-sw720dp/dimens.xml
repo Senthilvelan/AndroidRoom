@@ -1,0 +1,28 @@
+<resources>
+
+
+    <!--
+        a 10” tablet (720x1280 mdpi, 800x1280 mdpi, etc).
+    -->
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium_small">16sp</dimen>
+    <dimen name="text_size_medium">24sp</dimen>
+    <dimen name="text_size_medium_large">27sp</dimen>
+    <dimen name="text_size_large">30sp</dimen>
+
+
+    <dimen name="button_radius">35dp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="button_padding_top_bottom">12dp</dimen>
+
+
+    <dimen name="card_width">550dp</dimen>
+    <dimen name="card_height">550dp</dimen>
+
+
+</resources>
